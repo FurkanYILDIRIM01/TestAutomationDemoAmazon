@@ -1,0 +1,9 @@
+<suite name = "CucumberProject">
+
+<parameter name = "browser" value = "Firefox" />
+    <test name="Cucumber">
+        <classes>
+            <class name = "testRunners.TestRunner" />
+        </classes>
+    </test>
+</suite>
